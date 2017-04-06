@@ -1,0 +1,128 @@
+CS260 - Assignment 2 Premium - Michael Trigoboff
+
+quack: empty
+
+--> pushFront a
+--> pushFront b
+--> pushFront c
+--> pushFront d
+--> pushBack z
+--> pushFront e
+
+quack: e, d, c, b, a, z
+
+# of items: 6
+
+--> popFront e
+
+quack: d, c, b, a, z
+
+--> popFront d
+
+quack: c, b, a, z
+
+--> pushBack f
+
+quack: c, b, a, z, f
+
+--> pushBack g
+
+quack: c, b, a, z, f, g
+
+--> rotate 2
+
+quack: a, z, f, g, c, b
+
+--> rotate -3
+
+quack: g, c, b, a, z, f
+
+--> reverse
+
+quack: f, z, a, b, c, g
+
+--> pushFront y
+
+quack: y, f, z, a, b, c, g
+
+--> rotate 3
+
+quack: a, b, c, g, y, f, z
+
+--> rotate -4
+
+quack: g, y, f, z, a, b, c
+
+# of items: 7
+
+--> popBack c
+
+quack: g, y, f, z, a, b
+
+--> popBack b
+
+quack: g, y, f, z, a
+
+--> popBack a
+
+quack: g, y, f, z
+
+--> popBack z
+
+quack: g, y, f
+
+--> popBack f
+
+quack: g, y
+
+--> popBack y
+
+quack: g
+
+--> popBack g
+
+quack: empty
+
+# of items: 0
+
+--> PREMIUM
+
+--> pushBack a
+--> pushBack b
+--> pushBack c
+--> pushBack d
+--> pushBack e
+
+quack: a, b, c, d, e
+
+growing
+
+--> pushBack f
+--> pushBack g
+
+quack: a, b, c, d, e, f, g
+
+--> popFront a
+--> popBack g
+
+quack: b, c, d, e, f
+
+--> pushBack z
+--> pushBack y
+--> pushBack x
+--> pushFront a
+--> pushFront b
+--> pushFront c
+
+quack: c, b, a, z, y, x
+
+--> growing
+
+--> pushBack g
+--> pushBack h
+--> pushFront j
+--> pushFront k
+
+quack: k, j, c, b, a, z, y, x, g, h
+
+
